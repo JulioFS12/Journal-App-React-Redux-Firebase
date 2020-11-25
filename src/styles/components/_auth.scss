@@ -1,12 +1,16 @@
 
 .auth__main {
     align-items: center;
-    background-color: $primary;
+    background-image: url('https://as01.epimg.net/deporteyvida/imagenes/2018/02/28/portada/1519830649_122505_1519830777_noticia_normal.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     justify-content: center;
     margin: 0px;
     height: 100vh;
     width: 100vw;
+    font-size: 18px;
 }
 
 .auth__box-container {
@@ -21,6 +25,8 @@
 .auth__title {
     color: darken($color: $primary, $amount: 20);
     margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
 }
 
 .auth__input {
